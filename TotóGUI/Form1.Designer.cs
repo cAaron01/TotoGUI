@@ -52,10 +52,12 @@ namespace TotóGUI
             this.textBox1.Size = new System.Drawing.Size(251, 20);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "12X12X12X12X12";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Enabled = false;
             this.checkBox1.Location = new System.Drawing.Point(21, 85);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(213, 17);
@@ -66,6 +68,7 @@ namespace TotóGUI
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
+            this.checkBox2.Enabled = false;
             this.checkBox2.Location = new System.Drawing.Point(21, 108);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(216, 17);
