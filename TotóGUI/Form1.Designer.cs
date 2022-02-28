@@ -71,9 +71,9 @@ namespace TotóGUI
             this.checkBox2.Enabled = false;
             this.checkBox2.Location = new System.Drawing.Point(21, 108);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(216, 17);
+            this.checkBox2.Size = new System.Drawing.Size(214, 17);
             this.checkBox2.TabIndex = 5;
-            this.checkBox2.Text = "Helytelem karakter az eredményekben ()";
+            this.checkBox2.Text = "Helytelen karakter az eredményekben ()";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // button1
